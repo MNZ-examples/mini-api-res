@@ -1,0 +1,25 @@
+### 
+GET  http://localhost:9000/api HTTP/1.1
+
+### 
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "libro 3 ",
+    "autor": "i eia",
+    "edicion": 4
+}
+
+### 
+DELETE http://localhost:9000/api/1 HTTP/1.1
+
+### 
+PUT http://localhost:9000/api/4 HTTP/1.1
+Content-Type: application/json
+
+{
+    "titulo": "sherlock Holmes 2 ",
+    "autor": "Sir Arthur Connan Doil",
+    "edicion": 9
+}
